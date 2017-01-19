@@ -1,2 +1,0 @@
-routes:
-  - { path: '/', role: 'anon', method: 'get' }
