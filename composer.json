@@ -22,7 +22,7 @@
         "slim/slim": "^3.4",
         "slim/twig-view": "^2.1",
         "mustangostang/spyc": "^0.5.1",
-        "tecnickcom/tcpdf": "dev-master",
+        "tecnickcom/tcpdf": "^6.2",
         "phpoffice/phpexcel": "^1.8",
         "simotod/slim-multilanguage": "dev-master",
         "pwfisher/command-line-php": "dev-master",
