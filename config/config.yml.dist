@@ -5,11 +5,16 @@ db_parameters:
   dbhost: 'localhost'
   dbuser: 'root'
   dbpwd: 'password'
-  dbname: 'database',
+  dbname: 'database'
 
 pwd_passepartout:
   pwd1: 'password1'
   pwd2: 'password2'
+  
+dictionary:
+  class: 'IrideWeb\Core\IWTranslator'
+  default_language: en
+  available_language: ['en', 'it']
 
 cache:
   tipo_cache: 'Global'
