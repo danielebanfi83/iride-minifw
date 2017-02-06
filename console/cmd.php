@@ -6,8 +6,8 @@
  * Time: 11:02
  */
 
+require_once __DIR__."/../vendor/autoload.php";
 include(__DIR__."/../vendor/irideweb/mini-fw-core/functions.php");
 spl_autoload_register("iwautoload");
-require_once __DIR__."/../vendor/autoload.php";
 
 \IrideWeb\Core\IWCommand::run(CommandLine::parseArgs($_SERVER['argv']));
