@@ -6,9 +6,9 @@
  * Time: 12:53
  */
 
+require_once "../vendor/autoload.php";
 include("../vendor/irideweb/mini-fw-core/functions.php");
 spl_autoload_register("iwautoload");
-require_once "../vendor/autoload.php";
 
 $kernel = \IrideWeb\Core\IWKernel::factory();
 $kernel->dispatch("prod");

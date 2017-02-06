@@ -13,9 +13,9 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
     exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');
 }
 
+require_once "../vendor/autoload.php";
 include("../vendor/irideweb/mini-fw-core/functions.php");
 spl_autoload_register("iwautoload");
-require_once "../vendor/autoload.php";
 
 $kernel = \IrideWeb\Core\IWKernel::factory();
 $kernel->dispatch("dev");
