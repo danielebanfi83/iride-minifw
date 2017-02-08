@@ -82,6 +82,6 @@
             event.preventDefault();
             $(this).ajaxSubmit(opts);
             return true;
-        }).submit();
+        });
     }
 })(jQuery);
