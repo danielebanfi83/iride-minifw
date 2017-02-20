@@ -1,2 +1,5 @@
-/config/config.yml
 /vendor/
+/config/config.yml
+/web/js/bower/
+.idea
+composer.lock
