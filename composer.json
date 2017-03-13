@@ -26,6 +26,7 @@
         "phpoffice/phpexcel": "^1.8",
         "simotod/slim-multilanguage": "dev-master",
         "pwfisher/command-line-php": "dev-master",
+        "guiguiboy/php-cli-progress-bar": "dev-master",
         "swiftmailer/swiftmailer": "^5.4",
         "slim/csrf": "^0.6.0",
         "bryanjhv/slim-session": "dev-master",
