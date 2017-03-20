@@ -14,6 +14,10 @@
       {
         "type": "vcs",
         "url": "https://github.com/danielebanfi83/slim-session"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/danielebanfi83/MultilingualSlim"
       }
     ],
     
@@ -24,7 +28,7 @@
         "mustangostang/spyc": "^0.5.1",
         "tecnickcom/tcpdf": "^6.2",
         "phpoffice/phpexcel": "^1.8",
-        "simotod/slim-multilanguage": "dev-master",
+        "luism-s/slim-multilanguage": "dev-master",
         "pwfisher/command-line-php": "dev-master",
         "guiguiboy/php-cli-progress-bar": "dev-master",
         "swiftmailer/swiftmailer": "^5.4",
