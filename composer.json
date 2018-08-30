@@ -27,7 +27,7 @@
         "slim/twig-view": "^2.1",
         "mustangostang/spyc": "^0.5.1",
         "tecnickcom/tcpdf": "^6.2",
-        "phpoffice/phpexcel": "^1.8",
+        "phpoffice/phpspreadsheet": "^1.1",
         "luism-s/slim-multilanguage": "dev-master",
         "pwfisher/command-line-php": "dev-master",
         "guiguiboy/php-cli-progress-bar": "dev-master",
